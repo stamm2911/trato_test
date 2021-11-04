@@ -22,17 +22,37 @@ code {
 
 #landing-main {
   display: flex;
+  height: 1010px;
+  /* bottom: 0; */
 }
 
-#landing-Txt-ctn {
+#landing-aside-ctn {
   width: 990px;
-  height: 1010px;
-  /* margin: 0 141.9px 0 0; */
-  padding: 176px 0 0px 164px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  margin: 0;
+  /* bottom: 0; */
   background-color: #fdf0d5;
 }
 
-#landing-Txt-ctn h1 {
+#landing-aside-ctn section {
+  padding: 176px 0 0 164px;
+  background-color: red;
+}
+
+#landing-aside-ctn div {
+  background-color: blue;
+  width: 200px;
+  height: 100px;
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* height: 1F00px; */
+  /* align-self: baseline; */
+}
+
+#landing-aside-ctn h1 {
   width: 543px;
   height: 168px;
   margin: 0 0 24px;
@@ -47,7 +67,7 @@ code {
   color: #333;
 }
 
-#landing-Txt-ctn p {
+#landing-aside-ctn p {
   width: 493px;
   height: 137px;
   margin: 24px 0 72px 0;
@@ -62,7 +82,7 @@ code {
   color: #333;
 }
 
-#landing-Txt-ctn button {
+#landing-aside-ctn button {
   width: 286px;
   height: 66px;
   margin: 2px 0 58.9px 0;
@@ -82,7 +102,7 @@ code {
   cursor: pointer;
 }
 
-#landing-main div:nth-child(2) {
+#landing-main figure {
   width: 611px;
   height: 790px;
   position: absolute;
